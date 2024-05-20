@@ -17,8 +17,19 @@
 
 <body>
 
-    <header>
-        Ciao sono l'header
+    <header class="container">
+        <div class="main-container">
+            <div class="header-left">
+                logo
+            </div>
+            <nav class="header-right">
+                <ul>
+                    <li>
+                        <a href="#">CHARACTERS</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>

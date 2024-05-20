@@ -1,3 +1,25 @@
 @use './partials/variables' as *;
+@use './partials/header';
+@use './partials/main';
+@use './partials/footer';
 
 @import '~bootstrap/scss/bootstrap';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none
+}
+
+a{
+    text-decoration: none;
+    color: #464646;
+}
+
+img{
+    display: block;
+}
